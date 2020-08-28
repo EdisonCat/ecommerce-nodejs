@@ -6,6 +6,8 @@ NodeJS, ExpressJS: Environment/platform and framework.
 
 Mongoose: Database tool used to connect to the database and model objects. 
 
+Morgan: Logger tool used to log.
+
 Multer: Storage tool used to upload and store an image to the database.
 
 BCrypt, Json Web Token(JWT): Verification and security tools used to store user password and create token for users.
