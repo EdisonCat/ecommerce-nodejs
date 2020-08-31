@@ -12,6 +12,8 @@ Multer: Storage tool used to upload and store an image to the database.
 
 BCrypt, Json Web Token(JWT): Verification and security tools used to store user password and create token for users.
 
+Nodemon: Scripting tool used to develop.
+
 ## API
 ### User
 POST: http://localhost:3000/user/signup - Posts a new user via request body(json) to the database

@@ -4,14 +4,14 @@ const morgan = require('morgan');
 const bodyParser = require('body-parser');
 const productsRoutes = require('./api/routes/products');
 const ordersRoutes = require('./api/routes/orders');
-const mongoosae = require('mongoose');
+const mongoose = require('mongoose');
 const userRoutes = require('./api/routes/user');
-// mongoosae.connect(
+// mongoose.connect(
 //     "mongodb+srv://dev:" + process.env.MONGO_ATLAS_PWD + "@cluster0.xtiy0.mongodb.net/<dbname>?retryWrites=true&w=majority", 
 //     {
 //         useMongoClient: true
 //     });
-mongoosae.connect(
+mongoose.connect(
     "mongodb+srv://dev:" + process.env.MONGO_ATLAS_PWD + "@cluster0.xtiy0.mongodb.net/<dbname>?retryWrites=true&w=majority", 
     {
         useNewUrlParser: true,
