@@ -1,0 +1,46 @@
+.large-card, .medium-card, .small-card {
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 20px 50px 20px
+}
+
+.large-card {
+    width: 1000px;
+    height: 300px;
+}
+
+.medium-card {
+    width: 600px;
+    height: 500px;
+
+}
+
+.small-card {
+    width: 500px;
+    height: 400px;
+}
+
+.picture-block-large-card, .picture-block-medium-card, .picture-block-small-card {
+    display: flex;
+    justify-content: center;
+}
+
+.picture-block-small-card {
+    width: 400px;
+    height: 300px;
+}
+.picture-block-medium-card {
+    width: 500px;
+    height: 400px;
+}
+.picture-block-large-card {
+    width: 800px;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}

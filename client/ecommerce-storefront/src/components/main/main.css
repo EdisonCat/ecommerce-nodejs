@@ -1,0 +1,14 @@
+.body {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+.main {
+    background-color: black;
+    background-image: url('../../pictures/background2.png');
+    height: 1200px;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
