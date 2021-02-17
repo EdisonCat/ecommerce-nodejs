@@ -3,6 +3,9 @@
     padding: 0;
     justify-content: center;
     align-items: center;
+    position: absolute;
+    top: 0;
+    width: 100vw;
 }
 
 .storefront-header * {
@@ -110,7 +113,7 @@
     justify-content: center;
     height: 50px;
     outline: none;
-    width: 980px;
+    min-width: 76vw;
 }
 
 .search form {
