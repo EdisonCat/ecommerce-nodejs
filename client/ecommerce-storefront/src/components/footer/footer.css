@@ -1,7 +1,6 @@
 .footer {
-    position: fixed;
+    position: relative;
     bottom: 0;
-    border: black 2px solid;
     width: 100%;
     text-align: center;
     color: aliceblue;

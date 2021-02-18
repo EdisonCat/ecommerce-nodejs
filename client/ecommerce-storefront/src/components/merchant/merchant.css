@@ -1,0 +1,55 @@
+.div_preview {
+    display: flex;
+    flex-direction: column;
+}
+.div_preview img {
+    max-width: 600px;
+    max-height: 400px;
+}
+.div_preview input {
+    border: 1px solid black;
+}
+.div_preview label{
+    color: black;
+    width: fit-content;
+}
+.div_preview_setting {
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    justify-content: space-around;
+}
+.div_preview_setting button {
+    outline: none;
+    border: 1px solid black;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.div_preview_detail {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    justify-content: start;
+    align-items: center;
+    padding: 5px;
+}
+.div_preview_item {
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+}
+.button_product_submit {
+    margin: 10px;
+    font-size: 1vw;
+    transition: 0.5s;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.button_product_submit:hover {
+    background-color: lightgreen;
+}

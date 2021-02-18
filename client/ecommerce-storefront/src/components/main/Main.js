@@ -3,8 +3,6 @@ import "./main.css";
 import Card from "../card/Card";
 import item1 from "../../pictures/item1.jpg";
 import item2 from "../../pictures/item2.jpg";
-import Header from "../header/Header";
-import Footer from "../footer/Footer";
 export default function Main() {
 	const items = [
 		{
